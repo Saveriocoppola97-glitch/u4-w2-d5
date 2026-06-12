@@ -5,11 +5,12 @@ import java.util.List;
 // LISTA ATTRIBBUTI(in questo caso creo un contenitore lista)
 public class Collezione {
     private List<Games> lista;
-//  COSTRUTTORE che che dalla lista crea un arreyList
+
+//  COSTRUTTORE che dalla lista crea un arrayList
     public Collezione() {
         this.lista = new ArrayList<>();
     }
-    // METODO DI AGGIUNGA GAMES
+    // METODO DI AGGIUNTA GAMES
     public void aggiungi(Games nuovo) {
         for (Games giocoEsistente : lista) {
             if (giocoEsistente.getId().equals(nuovo.getId())) {

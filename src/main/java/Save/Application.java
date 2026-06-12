@@ -67,7 +67,6 @@ public class Application {
             System.out.print("Inserisci Ore di Gioco: ");
             Integer ore = scanner.nextInt();
             scanner.nextLine();
-
             System.out.print("Genere? (Azione, Avventura, Survival, Soulslike o GDR): ");
             //  Provo toUpperCase
             String testoUpper = scanner.nextLine().toUpperCase();
