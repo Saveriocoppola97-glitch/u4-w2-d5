@@ -34,6 +34,11 @@ public class Application {
         System.out.println("2 X gioco da tavolo");
         int controlloG = scanner.nextInt();
         scanner.nextLine();
+        if (controlloG != 1 && controlloG != 2) {
+            System.out.println("Numero non valido");
+            scanner.close();
+            return;
+        }
 
         // Chiediamo prima del if, i dati correlati.
         System.out.print("Inserisci ID (numero): ");
