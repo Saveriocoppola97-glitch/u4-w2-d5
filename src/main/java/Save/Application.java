@@ -60,7 +60,6 @@ public class Application {
         // 3. Convertiamo la String in Double
         double prezzo = Double.parseDouble(prezzoString);
 
-
         // Scelta tra 1 videoGames o 2 boardGames
         if (controlloG == 1) {
             System.out.print("Inserisci Piattaforma: ");

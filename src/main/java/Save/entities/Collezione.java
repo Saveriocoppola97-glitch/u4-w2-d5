@@ -20,7 +20,7 @@ public class Collezione {
         lista.add(nuovo);
         System.out.println("Aggiunto nella collezione: " + nuovo.getTitolo());
     }
-//    METODO DI RICERCA
+    // METODO DI RICERCA
     public Games cercaPerId(Integer idDaCercare) {
         Games risultato = null;
 
